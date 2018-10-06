@@ -1,0 +1,50 @@
+.App-page{
+    display: flex;
+    background-color: #eeeeee;
+    min-height: 100vh;
+}
+
+ul.Menu {
+    margin: 0;
+    width: 100px;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.Menu li {
+    background: #dddddd;
+    text-align: center;
+    width: 100px;
+    padding: 10px 0;
+    border-bottom: 1px solid #666666;
+}
+
+.MenuItem-Current {
+    color: #666666;
+    text-decoration: none;
+}
+
+.App {
+    text-align: center;
+    flex: 1 100%;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
